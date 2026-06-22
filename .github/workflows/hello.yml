@@ -7,8 +7,9 @@ on:
 #job tells what the workflow should do, there can be one or more than one jobs, hence we write jobs, and jobs is an object so need indentation
 jobs:
   say-hello:
-      Runs-on: ubuntu latest
-  # steps:
-      -name: say hello to everyone
-      -Run: echo "hello dostho" 
+      runs-on: ubuntu latest
+   steps:
+    -name: say hello to everyone
+    -run: echo "hello dostho"
+       
   
