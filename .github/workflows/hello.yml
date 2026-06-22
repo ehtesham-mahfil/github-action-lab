@@ -2,7 +2,7 @@
 #Should have name 
 name: Hello
 #On tells when the workflow should run (give indentation by tab)
-  On:
+On:
     workflow dispatch:
 #job tells what the workflow should do, there can be one or more than one jobs, hence we write jobs, and jobs is an object so need indentation
 Jobs:
